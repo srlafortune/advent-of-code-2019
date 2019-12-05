@@ -1,5 +1,5 @@
 var fs = require("fs");
-var text = fs.readFileSync("./input.txt", "utf-8");
+var text = fs.readFileSync("./input.csv", "utf-8");
 var textByLine = text.split(",").map(x => parseInt(x));
 
 (async () => {
